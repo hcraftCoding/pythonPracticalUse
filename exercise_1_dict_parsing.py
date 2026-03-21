@@ -40,9 +40,11 @@ print(f"{weather_data['city']}, {weather_data['country']} | "
       f"{weather_data['conditions'][1]}")
 
 
-# ── Step 2: Forecast ───────────────────────────────────────────────────────────
-
-# Your code goes here
+# ── Step 2: Forecast(for loop loop through) ───────────────────────────────────────────────────────────
+#already in weather_data so dont have to call it with day
+for day in weather_data["forecast"]:
+    print(f"{day['day']}: high {day['high']}°F / low {day['low']}°F")
+    
 
 
 # ── Step 3: Wind ───────────────────────────────────────────────────────────────
