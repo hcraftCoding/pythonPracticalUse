@@ -49,4 +49,4 @@ for day in weather_data["forecast"]:
 
 # ── Step 3: Wind ───────────────────────────────────────────────────────────────
 
-# Your code goes here
+print(f"Wind: {weather_data['wind']['speed']} mph from the {weather_data['wind']['direction']}")
