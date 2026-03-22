@@ -1,0 +1,10 @@
+{
+  "status": "success",
+  "user": {
+    "id": 1042,
+    "username": "hcraft",
+    "email": "hcraft.developer@gmail.com",
+    "plan": "pro"
+  },
+  "tokens_remaining": 8400
+}
